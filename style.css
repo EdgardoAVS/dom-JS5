@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.compass {
+  width: 200px;
+  height: 200px;
+  background-image: url(./compass.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+  margin: 50px auto 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.arrow-container {
+  width: 146px;
+  height: 146px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-left: 0.5px;
+  text-align: center;
+}
+.arrow  {
+  user-select: none;
+  width: 15px;
+}
+.show-degrees {
+  text-align: center;
+  font-weight: bold;
+}
